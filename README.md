@@ -1,13 +1,8 @@
-# protocol [![Build Status](https://travis-ci.org/tronprotocol/protocol.svg?branch=master)](https://travis-ci.org/tronprotocol/protocol)
+#### 源自TRON官方仓库 `tronprotocol/protocol` 生成的Python语言包
+-  食用可阅读官方gRPC API相关文档
 
+- Python项目直接下载 `/api` 和 `/core` 两个目录全部py文件，放到项目根目录下引入即可调用
 
-# The protocol of Tron including api and message.
+- 一些 Demo 看demo文件夹
 
-The protocol is an independent project. You can use it for building other application. 
-
-java-tron, wallet-cli and grpc-gateway
-
-git subtree pull --prefix src/main/protos/ protocol master
-
-## Run the included *.sh files to initialize the dependencies
-
+- gRPC API对服务器IP有一定限制，目前我已知Racknerd的VPS有一定限制（我自己就是Racknerd）扫块扫着扫着403防火墙拦截，换台VPS就好了。403不是API Key也不是节点原因，就是IP黑了。
